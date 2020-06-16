@@ -1,0 +1,6 @@
+/* This file is for your main application css. */
+
+@import "./phoenix.css";
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}

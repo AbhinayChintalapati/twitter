@@ -1,0 +1,52 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3">
+      <label for="user-name">Enter Username</label>
+    </div>
+    <div class="col-sm-6 form-group">
+      <input type="text" name="user-name" id="user-name" placeholder="Please enter the Username">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-3">
+      <label for="user-tweet">Tweet</label>
+    </div>
+    <div class="col-sm-6 form-group">
+      <textarea row='5' col='5' name="user-tweet" id="user-tweet" placeholder="Tweet"></textarea>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-3">
+      <label for="user-subscribe">Subscribe to a User</label>
+    </div>
+    <div class="col-sm-6 form-group">
+      <input type="text" name="user-subscribe" id="user-subscribe" placeholder="Please enter the username of the user to subscribe">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-3">
+      <label for="search-hashtag">Search Hashtag</label>
+    </div>
+    <div class="col-sm-6 form-group">
+      <input type="text" name="search-hashtag" id="search-hashtag" placeholder="Enter the hashtag to search">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-4">
+      <button class="btn btn-outline-primary search-mentions" id="search-mentions">Search mentions</button>
+    </div>
+    <div class="col-sm-4">
+      <button class="btn btn-outline-primary clear-search" id="clear-search">Clear Search</button>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-6">
+      <div id="messages">
+      </div>
+    </div>
+  </div>
+</div>
